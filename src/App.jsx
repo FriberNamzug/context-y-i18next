@@ -6,7 +6,28 @@ function App() {
   const [t, i18n] = useTranslation("global")
 
   const [count, setCount] = useState(0)
+  const footer = (
+    <nav className="bg-gray-800 border  border-black px-2 sm:px-4 py-2.5 rounded-t-xl mt-36">
+      <div className="flex justify-around items-center">
+        <div className='hover:text-white text-gray-500 transition hover:animate-pulse font-semibold cursor-pointer'>
+          ClickUp
+        </div>
+        <div className='hover:text-white text-gray-500 transition hover:animate-pulse font-semibold cursor-pointer'>
+          Dropbox
+        </div>
+        <div className='hover:text-white text-gray-500 transition hover:animate-pulse font-semibold cursor-pointer'>
+          PAYCHEX
+        </div>
+        <div className='hover:text-white text-gray-500 transition hover:animate-pulse font-semibold cursor-pointer'>
+          elastic
+        </div>
+        <div className='hover:text-white text-gray-500 transition hover:animate-pulse font-semibold cursor-pointer'>
+          Stripe
+        </div>
 
+      </div>
+    </nav>
+  )
 
   const navbar = (
     <nav className="bg-gray-800 border  border-black px-2 sm:px-4 py-2.5 rounded-b-xl mb-36">
@@ -41,7 +62,9 @@ function App() {
       <div className='flex justify-around'>
 
 
+
       </div>
+      {footer}
     </div>
   )
 }
