@@ -1,0 +1,14 @@
+{
+    "navbar":{
+        "espanol":"Spanish",
+        "ingles":"English",
+        "inicio":"Home"
+    },
+    "data":{
+        "descripcion":"Description of you, what do you like, what do you expect when you finish your degree",
+        "contador": "Count visit",
+        "contador2": "Visitor counter",
+        "tecnologias": "Technologies I use"
+
+    }
+}

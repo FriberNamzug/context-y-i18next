@@ -1,0 +1,14 @@
+{
+    "navbar":{
+        "espanol":"español",
+        "ingles":"ingles",
+        "inicio":"Inicio"
+    },
+    "data":{
+        "descripcion":"Descripcion de ustedes, que les gusta, que esperar cuando termina su carrera",
+        "contador": "Contar visita",
+        "contador2": "Contador de visitas",
+        "tecnologias": "Tecnologías que manejo"
+
+    }
+}
