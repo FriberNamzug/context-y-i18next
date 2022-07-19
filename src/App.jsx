@@ -61,7 +61,18 @@ function App() {
       {navbar}
       <div className='flex justify-around'>
 
+        <div className=''>
+          <h2 className='text-6xl text-white font-extrabold'>Roberto Friber Marin Guzman</h2>
+          <p className='text-xl text-gray-500'>{t("data.descripcion")}</p>
+          <button className='h-16 w-96 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded'>{t("data.contador")} {'>'}</button>
+          <p className='text-xl text-white'>{t("data.contador2")}: 0</p>
+          <p className='text-xl text-white'>{t("data.tecnologias")}</p>
 
+        </div>
+
+        <div className=''>
+          <img className='rounded-full w-96 h-96' src='https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60' alt='profile' />
+        </div>
 
       </div>
       {footer}
