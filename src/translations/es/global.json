@@ -5,10 +5,10 @@
         "inicio":"Inicio"
     },
     "data":{
-        "descripcion":"Descripcion de ustedes, que les gusta, que esperar cuando termina su carrera",
+        "descripcion":"Descripcion de ustedes, que les gusta, que esperar cuando termina su carrera: Cuando termine mi carrera, posiblemente siga trabajando en la empresa donde me encuentro actualmente, es donde estoy aprendiendo mucho por mi cuenta, y conociendo nuevas tecnologias.  Espero mucho de mi carrera ya que es el futuro, y aun le falta desarrollarse mucho mas.",
         "contador": "Contar visita",
         "contador2": "Contador de visitas",
-        "tecnologias": "Tecnologías que manejo"
+        "tecnologias": "Tecnologías que manejo: Javascript, AngularJS, VueJS, Socket.io, Reactjs, Express, Nodejs, Git, MySQL, MongoDB, PHP, Laravel, Lumen, ..."
 
     }
 }
